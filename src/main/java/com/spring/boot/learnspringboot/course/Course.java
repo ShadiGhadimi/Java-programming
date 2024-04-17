@@ -1,4 +1,4 @@
-package com.spring.boot.learnspringboot;
+package com.spring.boot.learnspringboot.course;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,7 +10,6 @@ public class Course {
     private int id;
     private String courseName;
     private String author ;
-
 
     @Override
     public String toString() {
